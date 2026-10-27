@@ -1,0 +1,74 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "main",
+    "deps": [
+        "internal"
+    ],
+    "uuids": [
+        "01c698a99",
+        "09eea9a5a",
+        "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@6c48a",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "c5566319-e2a4-4351-9138-64bf60d6be0c",
+        "c5566319-e2a4-4351-9138-64bf60d6be0c@6c48a",
+        "c5566319-e2a4-4351-9138-64bf60d6be0c@f9941",
+        "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603",
+        "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@6c48a",
+        "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@f9941",
+        "f6eb50e8-8086-484f-8f34-7afd9a89ee5c",
+        "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@6c48a",
+        "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@f9941",
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+    ],
+    "paths": {
+        "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7": [
+            "db:/assets/Game/Scenes/GoldenHenMain",
+            "cc.SceneAsset",
+            1
+        ],
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8": [
+            "db:/internal/default_renderpipeline/builtin-forward",
+            "cc.RenderPipeline",
+            1
+        ],
+        "ba21476f-2866-4f81-9c4d-6e359316e448": [
+            "db:/internal/physics/default-physics-material",
+            "cc.PhysicsMaterial",
+            1
+        ]
+    },
+    "scenes": {
+        "db://assets/Game/Scenes/GoldenHenMain.scene": "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7"
+    },
+    "packs": {
+        "09eea9a5a": [
+            "b730527c-3233-41c2-aaf7-7cdab58f9749@6c48a",
+            "c5566319-e2a4-4351-9138-64bf60d6be0c@6c48a",
+            "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@6c48a",
+            "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@6c48a"
+        ],
+        "01c698a99": [
+            "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7",
+            "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+            "c5566319-e2a4-4351-9138-64bf60d6be0c@f9941",
+            "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@f9941",
+            "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@f9941"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

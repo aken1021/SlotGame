@@ -1,0 +1,92 @@
+[42320:1022/170648.864:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[42320:1022/170648.864:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[42320:1022/170648.864:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[42320:1022/170648.869:ERROR:disk_cache.cc(208)] Unable to create cache
+[42320:1022/170648.872:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+[42320:1022/170648.873:ERROR:disk_cache.cc(208)] Unable to create cache
+[42320:1022/170648.875:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+[42320:1022/170648.876:ERROR:disk_cache.cc(208)] Unable to create cache
+[42320:1022/170648.876:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+web-desktop 插件构建配置无版本号，将跳过数据迁移
+构建参数 mainBundleCompressionType (merge_dep) 校验失败,  compression type(undefined) is invalid for this platform!, 将会使用默认值 "merge_dep"
+Warn: [Assets] The type of "AISlotReelColumn.symbolIds" must be CCFloat or CCInteger, not Number.
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@sentry\core\src\utils-hoist\instrument\console.ts:40:14)
+    at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1637)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:162864:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:163052:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:278779:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:278884:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:144568:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:144597:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:276239:21)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:277719:18)
+    at Object.execute (file:///E:/AI%20collection/AI_Slot/outputs/goldenhen-scene/creator-check/temp/programming/packer-driver/targets/editor/chunks/9a/9a9e203bfb01cb26e9f168a6f207c6ac9711cb81.js:55:284)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///E:/AI%20collection/AI_Slot/outputs/goldenhen-scene/creator-check/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13
+    at Object.execute (file:///E:/AI%20collection/AI_Slot/outputs/goldenhen-scene/creator-check/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:358:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:235:13)
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2605
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1309
+    at GlobalEnv.processQueue (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1706)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1477)
+    at loadScript (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1858)
+    at BundleManager.loadScript (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:3083)
+    at BundleManager.initAsset (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4524)
+    at BuildTask.handle (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13628)
+    at BuildTask.run (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:4127)
+    at build (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4763)
+    at Ipc.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:210)
+Warn: [Assets] The type of "AISlotReelColumn.symbolNames" must be CCString, not String.
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@sentry\core\src\utils-hoist\instrument\console.ts:40:14)
+    at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1637)
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:162864:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:163052:5)
+    at parseType (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:278769:11)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:278884:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:144568:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:144597:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:276239:21)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:277719:18)
+    at Object.execute (file:///E:/AI%20collection/AI_Slot/outputs/goldenhen-scene/creator-check/temp/programming/packer-driver/targets/editor/chunks/9a/9a9e203bfb01cb26e9f168a6f207c6ac9711cb81.js:55:284)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///E:/AI%20collection/AI_Slot/outputs/goldenhen-scene/creator-check/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13
+    at Object.execute (file:///E:/AI%20collection/AI_Slot/outputs/goldenhen-scene/creator-check/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:358:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:235:13)
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2605
+    at C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1309
+    at GlobalEnv.processQueue (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1706)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1477)
+    at loadScript (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1858)
+    at BundleManager.loadScript (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:3083)
+    at BundleManager.initAsset (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4524)
+    at BuildTask.handle (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13628)
+    at BuildTask.run (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:4127)
+    at build (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4763)
+    at Ipc.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:210)
+Warn: [Assets] 移除插屏配置失败，将使用默认插屏进行构建。激活移除插屏功能请前往 项目 -> 构建发布 -> 编辑构建项目配置 完善相关信息。
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@sentry\core\src\utils-hoist\instrument\console.ts:40:14)
+    at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1637)
+    at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2358)
+    at getSplashSettings (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\setting-task\utils\project-options.ccc:1:1879)
+    at patchOptionsToSettings (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\setting-task\utils\project-options.ccc:1:1289)
+    at BuildTask.handle (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\setting-task\options.ccc:1:334)
+    at BuildTask.runBuildTask (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13628)
+    at BuildTask.run (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:4767)
+    at build (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4763)
+    at Ipc.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:210)
+2026-10-22 17:07:27 - warn: 移除插屏配置失败，将使用默认插屏进行构建。激活移除插屏功能请前往 项目 -> 构建发布 -> 编辑构建项目配置 完善相关信息。
+

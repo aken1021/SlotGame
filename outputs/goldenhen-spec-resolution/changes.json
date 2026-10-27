@@ -1,0 +1,914 @@
+[
+  {
+    "sheet": "總覽",
+    "cell": "A1",
+    "before": "GoldenHen（金雞報喜）— AI 可用美術＋玩法規格書",
+    "after": "GoldenHen（金雞報喜）— AI 規格書・作法補齊版"
+  },
+  {
+    "sheet": "總覽",
+    "cell": "A2",
+    "before": "用途：交給 AI（圖像生成 / 程式 / 企劃 AI）理解本遊戲的 Symbol 外觀與玩法規則。\n每條規則都標有確認狀態（見狀態圖例）：「已確認」有程式依據；「推論」只從測試資料或程式行為推得；派彩、機率、玩家權益相關而尚未決定的標「待確認」，集中列在「待決事項」。\n測試資料已收錄於「測試資料」工作表（編號 D01～D12），本書可獨立使用。gameInfo/ 內說明頁與圖片沿用其他款遊戲模板，不可當作本遊戲規則或美術依據。",
+    "after": "本版補入待決項目的工程作法與可配置開發提案。工程已定方案不代表程式已完成；玩法提案不是 GoldenHen 原版規則。正式數學及 96.8% RTP 尚未驗證。測試資料保留原始內容，已知矛盾另列作法，不將歷史假資料當作結算答案。"
+  },
+  {
+    "sheet": "總覽",
+    "cell": "B7",
+    "before": "總押注取自 StartGame.bet_list[].total_bet，client 不自行乘 50；測試資料 D02 的每個選項都符合 total_bet = line_bet × 50，max_lines = 50 為投注換算基數，不是 50 條 payline（見 BET-001）。ExtraBet 停用（BET-004）",
+    "after": "Client 讀取 bet_list.total_bet；開發提案採 total_bet=line_bet×50（非 50 條 payline），ExtraBet 停用。正式數學仍依 Q-01/Q-02 核定。"
+  },
+  {
+    "sheet": "總覽",
+    "cell": "C7",
+    "before": "推論（程式行為）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "總覽",
+    "cell": "B10",
+    "before": "正式 paytable、輪帶 / 權重、各機制機率、目標 RTP =96.8% 需由數學附件提供（見待決事項 Q-01）",
+    "after": "理論 RTP 目標 96.8%；以獨立、固定版本的數學配置與完整 paid-spin→FG/JP 回合驗證。不可用短期補獎湊 RTP。Q-01 已填設計與驗證作法，但正式 paytable/權重、波動與 RTP 結果尚未完成。"
+  },
+  {
+    "sheet": "總覽",
+    "cell": "C10",
+    "before": "待確認（數學）",
+    "after": "作法已填；正式數學待驗證"
+  },
+  {
+    "sheet": "狀態圖例",
+    "cell": "A2",
+    "before": "規則表、封包契約、待決事項等都用以下狀態；空白不代表任何一種狀態。",
+    "after": "本版新增狀態：已定作法＝可依已授權工程選擇實作，尚未測試；開發版提案＝供獨立開發採用的候選玩法，非原版/正式核定；RTP 待驗證＝已有設計路徑但無合格數學結果。保留原狀態作來源歷史說明。"
+  },
+  {
+    "sheet": "狀態圖例",
+    "cell": "B9",
+    "before": "影響派彩 / 機率，需數學文件決定",
+    "after": "正式數學尚缺有效資料或驗證結果；可填設計作法/開發提案，不得將未驗證模型宣稱為正式規則。"
+  },
+  {
+    "sheet": "狀態圖例",
+    "cell": "C9",
+    "before": "不可；由 AI 決定即違規",
+    "after": "可建引擎與提案；未驗證不得標記 96.8% 已達成"
+  },
+  {
+    "sheet": "狀態圖例",
+    "cell": "C10",
+    "before": "不可",
+    "after": "可填明確開發提案；標示非原版核定"
+  },
+  {
+    "sheet": "狀態圖例",
+    "cell": "C11",
+    "before": "不可；引用共用規格版本",
+    "after": "本機工程依已授權 Go/錢包方案；正式平台另適配"
+  },
+  {
+    "sheet": "狀態圖例",
+    "cell": "B12",
+    "before": "資產規格、參考圖、動畫格式",
+    "after": "資產格式可依本版開發規格製作；原版外觀需參考圖及驗收。"
+  },
+  {
+    "sheet": "狀態圖例",
+    "cell": "C12",
+    "before": "依美術風格簡單繪製",
+    "after": "可依美術風格簡單繪製；原版相似度未驗證"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "A1",
+    "before": "待決事項（需負責角色決定）",
+    "after": "待決事項與處理作法"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "A2",
+    "before": "「可選方案」只列出可行做法，不代表已決定；「client 現況 / 線索」是程式或測試資料能提供的參考。決定後請把結果寫回規則表對應列，並將狀態改為已確認。",
+    "after": "D 欄已填具體作法；H 欄區分工程已定、開發版提案與仍需驗證。玩法提案不自動成為原版規則；正式平台、原版資產與 96.8% 數學驗證未完成，不標示已解決。相關規則與案例同步補充。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D3",
+    "before": "可選方案",
+    "after": "處理作法／開發版提案"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H3",
+    "before": "狀態",
+    "after": "處理狀態"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D5",
+    "before": "—",
+    "after": "將 paytable、每軸取樣/輪帶、state 轉換、FG/JP 機率與封頂寫入版本化 math.json。先固定 Q-02～10 的候選規則，再離線計算/模擬、調整候選權重，另用獨立樣本驗證完整回合 RTP 與波動。目標 96.8%，不能單憑目標反推唯一模型；不用 G63 測試賠率，不按玩家盈虧動態補獎。正式權重/賠率尚未生成，這項只完成方法設計。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H5",
+    "before": "待確認（數學）",
+    "after": "已填設計路徑；RTP 待驗證"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D6",
+    "before": "A. 每個 symbol 只取最長連續一筆，win = odds[連數] × 線注 × ways\nB. 其他公式（由數學定義）",
+    "after": "開發提案：每個 symbol 只取最長連續 ≥3 輪，一個 symbol/盤面一筆 bingo；ways 為各輪有效數量乘積。win=odds[連數]×line_bet×ways，multiplier 預設 1；所有乘法檢查溢位。整數倍率不取整；若允許有理數倍率，各筆最終派彩採整數向下取整。max_win_multiple 為配置必填，未提供不得啟動隨機遊戲，不自行猜上限；封頂需納入 RTP 模型。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H6",
+    "before": "待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D7",
+    "before": "替代：A. 高分＋低分，不含 Scatter／B. 含 Scatter\n純 Wild：A. 不派彩／B. 派彩（需賠率）\n共用：A. 各 symbol 各自計獎／B. 只計最高一組",
+    "after": "開發提案：Wild 替代 ID10～24，不替代 Scatter；Wild 自身不另付獎。各目標 symbol 可共用 Wild，各自形成一筆最長連線；但一條路徑必須至少含一格該目標自然圖騰，純 Wild 路徑不對所有 symbol 重複派彩。ways=Π(自然數+Wild數)−Π(Wild數)，只在相同最長連續範圍計算；扣除純 Wild 路徑，bingo.pos 標記參與的可視格。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H7",
+    "before": "待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D8",
+    "before": "A. 不同 symbol，各自計獎，不可混連\nB. 同族可混連，以較低賠率計\nC. 其他",
+    "after": "開發提案：一般/黃金不混連。Server 先以基礎 symbol 取樣，再依觸發時鎖定的 state 做 18→13、17→12、16→11、15→10 轉換，轉換後計獎、回傳盤面與 bingo；禁止 client 另改結算結果。每個 state 都需獨立驗證 RTP；視覺假輪帶不得當取樣權重。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H8",
+    "before": "待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D9",
+    "before": "判定：A. 由第 1 輪起連續 K 輪各 ≥1 顆（K≥3）／B. 全盤累計 ≥3 顆\n派彩：A. 無／B. 有（總押注倍數）",
+    "after": "開發提案：由第1輪起連續 K 輪各至少一個自然 Scatter，K=3/4/5 才觸發；同輪多顆只算一輪，Wild 不替代。Scatter 不另派彩，可與普通 ways 同局成立；初始 FG 4/6/8 局（Q-06）。win_special_symbols 只標真正 ID2 的可視格，不能把 Wild 標成 Scatter。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H9",
+    "before": "待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D10",
+    "before": "—",
+    "after": "開發提案：主遊戲3/4/5輪 Scatter 給4/6/8局；FG 同條件加2/3/4局，整段最多獲授100局（含初始）。remaining=原remaining−1+實際可加局數；total 只增加實際加局數，永不倒退。達上限後不加局也不播加局動畫。FG 結果可出高分、Wild、Scatter，不出低分；具體權重依 Q-01 待驗證。fake_wheels 僅控制視覺。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H10",
+    "before": "待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D12",
+    "before": "—",
+    "after": "開發提案：1信用點=10000原始單位；bet_list 線注原始值=[70000,50000,30000,20000,15000,10000,5000,3000,2000,1000,500,200,100]，總注=線注×50，依總注降冪。五筆 gold_sym.value=[0,250,1000,3000,10000]；第0筆為保留，sym=[14,14]，其後 sym=[18,13]/[17,12]/[16,11]/[15,10]。門檻須嚴格遞增，未達第1門檻 state=1；非法配置拒絕啟動，FG/JP 鎖定觸發押注與 state。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H12",
+    "before": "待確認（企劃）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D13",
+    "before": "壓暗：A. 不可開出，server 不得派發／B. 只是提示，仍可中\nstate 1：A. 不觸發 JP／B. 可觸發",
+    "after": "開發提案：壓暗表示未取得該 JP 資格，server 不可派發。state1 不觸發；state2 只 MINI；state3 MINI/MINOR；state4 加 MAJOR；state5 加 GRAND。取樣只在已開放集合中進行；不得先開出未開放獎再由 client 隱藏。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H13",
+    "before": "待確認（企劃）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D14",
+    "before": "A. 只開放 MINI 時（state 2）直接給 MINI\nB. 其他條件（由數學定義）",
+    "after": "開發提案：state1 無 JP；state2 觸發後直接 END 給 MINI，不建立18蛋互動；state3～5進18蛋。低押注的精確定義依 Q-07 state，不另比對顯示字串。四級 JP 用固定倍數模擬：GRAND 1000×、MAJOR 100×、MINOR 20×、MINI 5×觸發總押注；均為配置，不是原版/累積獎池值，需納入 Q-01 RTP 驗證。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H14",
+    "before": "待確認（企劃）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D15",
+    "before": "開獎：A. 每次點選由 server 決定內容／B. 進場時預先決定 18 顆內容，點選只是揭露",
+    "after": "開發提案：Main/FG 每局完成結果後，若可視區含 Wild 且 state≥2，每局只判定一次 JP；p_jp[state,mode] 及 eligible-tier 權重為 math.json 必填，依 Q-01 離線設計。state2直接 MINI；其餘在進場固定18蛋內容並保存，點選只揭露，任一合格等級首次集滿3個即結束。只抽已開放等級，不因點選或目前盈虧換內容。不得預先指定一個與實際首次集滿不同的得獎等級；整個板面演算法/分布需驗證。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H15",
+    "before": "待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D17",
+    "before": "—",
+    "after": "本機作法：Go HTTP JSON /api/v1/game/command；正規命令 START_GAME/SPIN/NEXT_FEVER/CHECK_CMD。請求含 player_id、request_id、action、expected_version、payload；回應沿用 cmd_data.data adapter，帶 round_id、state_version、balance。相同玩家/遊戲/request_id 同參數回存原結果，異參數409；狀態過期409、餘額不足422。正式平台的認證、錢包與傳輸另做 adapter，未整合不宣稱相容。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H17",
+    "before": "沿用共用規格",
+    "after": "本機作法已定；正式平台未整合"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D18",
+    "before": "—",
+    "after": "開發作法：Cocos 3.8.8、1280×720、SHOW_ALL，依既有美術風格簡繪。Symbol PNG RGBA 採尺寸欄2×輸出再縮回，pivot=(0.5,0.5)、四周保留8%安全區；轉輪中按格等比 fit，Wild/Scatter 表演覆層可越框。Coin 用24幀/24fps循環；其他動畫先用 tween/序列與語意完成事件，不要求 Spine；以 Symbol清單 frame 名建 asset manifest。原版畫面相似度仍需參考圖及美術驗收。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H18",
+    "before": "待確認（美術）",
+    "after": "開發作法已填；原版外觀未驗收"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D19",
+    "before": "—",
+    "after": "已確定 Go server。採 net/http+JSON、database/sql+SQLite 本機持久化，單一服務可用 go run ./cmd/server，預設127.0.0.1:8080。設定包含DB路徑、初始餘額、math版本；SQLite driver及最低Go版在建置時固定並記錄。Server 依 client 契約實作，不等待另份 server 設計。尚未寫程式/實測，正式平台不在本機範圍。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H19",
+    "before": "待確認（平台）",
+    "after": "已定作法（尚未實作驗證）"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "D20",
+    "before": "—",
+    "after": "保留D01～D12歷史原文，不用它們當正式結算期望。另建版本化 normalized fixtures：修正D07 Wild/Scatter標記、FG總次數倒退、投注單位排序、JP缺欄與累計。人工可推導盤面獨立算 expected，再測Go輸出；覆蓋末局加局+JP、重送、異參數同ID、已提交但回應遺失、重啟恢復。下方案例已填測試方法；fixture實體與驗證結果仍待實作。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "H20",
+    "before": "待確認（數學）",
+    "after": "作法已填；測試尚未執行"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "E9",
+    "before": "client 只依 server 的 sg_state / current_sg_id 進 FG；D07-1 為第 1～3 輪各 1 顆",
+    "after": "D07-1 第2輪可視[17,1,19]是Wild，標記卻當成Scatter；不能證明前三輪各有自然Scatter。保留為歷史異常，正式fixture依Q-05重建。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "C10",
+    "before": "初始次數、加局次數、加局上限、FG 輪帶內容（是否含 Scatter；不含則不可能加局）、各 state 的 FG 抽樣",
+    "after": "初始局數、加局與上限、正式FG結果取樣；與視覺fake_wheels分開定義。"
+  },
+  {
+    "sheet": "待決事項",
+    "cell": "C19",
+    "before": "server 語言、部署、啟動方式、平台相容需求",
+    "after": "Go server、本機部署與啟動、client資料契約和正式平台邊界。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H5",
+    "before": "ExtraBet 啟用時線注與總押注都乘 ExtraBet.Ratio",
+    "after": "本遊戲 ExtraBet 停用（BET-004）；開發提案total_bet=line_bet×50，取樣/派彩仍依Q-01驗證。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K5",
+    "before": "已確認（程式）；max_lines=50 與 total_bet 的關係：待確認（數學）",
+    "after": "介面已確認；換算採開發提案"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H6",
+    "before": "開發環境整數記帳見 WAL-002；派彩取整時點、最大贏分封頂（Q-02）",
+    "after": "最小單位1/10000信用點；整數派彩不取整，有理數倍率於各筆最終向下取整；顯示2位四捨五入不回寫帳本。封頂配置必填，依Q-02。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H11",
+    "before": "計獎公式（odds × 線注 × ways 或其他）",
+    "after": "開發提案：win=odds×line_bet×有效ways（multiplier=1）；一symbol最長一筆；純Wild路徑扣除見WILD-001。正式數學未驗證。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K11",
+    "before": "已確認（程式）；公式：待確認（數學）（Q-02）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "E12",
+    "before": "bingo 分筆規則未定：測試資料 D05-12、D05-48 同一 symbol 有兩筆完全相同的 bingo",
+    "after": "開發提案：每個symbol僅支付由第1輪起最長連續N≥3的一筆bingo，不重複支付其3/4/5輪子段；歷史重複資料不作答案。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H12",
+    "before": "分筆規則（Q-02）",
+    "after": "完整公式/取整/封頂見Q-02；正式數學未驗證。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K12",
+    "before": "待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H14",
+    "before": "是否替代 Scatter、純 Wild 是否派彩、共用 Wild 是否對多個 symbol 重複計獎（Q-03）",
+    "after": "開發提案：Wild 替代 ID10～24，不替代 Scatter；Wild 自身不另付獎。各目標 symbol 可共用 Wild，各自形成一筆最長連線；但一條路徑必須至少含一格該目標自然圖騰，純 Wild 路徑不對所有 symbol 重複派彩。ways=Π(自然數+Wild數)−Π(Wild數)，只在相同最長連續範圍計算；扣除純 Wild 路徑，bingo.pos 標記參與的可視格。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K14",
+    "before": "推論（假資料）；其餘待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H16",
+    "before": "一般 / 黃金是否同族結算；黃金化在抽樣前（換輪帶）或抽樣後",
+    "after": "開發提案：一般/黃金不混連。Server 先以基礎 symbol 取樣，再依觸發時鎖定的 state 做 18→13、17→12、16→11、15→10 轉換，轉換後計獎、回傳盤面與 bingo；禁止 client 另改結算結果。每個 state 都需獨立驗證 RTP；視覺假輪帶不得當取樣權重。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K16",
+    "before": "推論（程式行為）；待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H17",
+    "before": "假資料只有 4 筆且降冪（1000/300/100/25），與程式不符；正式門檻值、單位、格式",
+    "after": "開發提案：1信用點=10000原始單位；bet_list 線注原始值=[70000,50000,30000,20000,15000,10000,5000,3000,2000,1000,500,200,100]，總注=線注×50，依總注降冪。五筆 gold_sym.value=[0,250,1000,3000,10000]；第0筆為保留，sym=[14,14]，其後 sym=[18,13]/[17,12]/[16,11]/[15,10]。門檻須嚴格遞增，未達第1門檻 state=1；非法配置拒絕啟動，FG/JP 鎖定觸發押注與 state。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K17",
+    "before": "已確認（程式）；門檻值：待確認（企劃）（Q-07）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H18",
+    "before": "壓暗是否代表不能開出、state 1 能否觸發 JP（Q-08）",
+    "after": "開發提案：壓暗表示未取得該 JP 資格，server 不可派發。state1 不觸發；state2 只 MINI；state3 MINI/MINOR；state4 加 MAJOR；state5 加 GRAND。取樣只在已開放集合中進行；不得先開出未開放獎再由 client 隱藏。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K18",
+    "before": "已確認（程式）；含義：待確認（企劃）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H20",
+    "before": "按輪或按顆、同輪多顆、FG 次數、Scatter 派彩、Wild 替代、與 ways 是否同時支付",
+    "after": "開發提案：由第1輪起連續 K 輪各至少一個自然 Scatter，K=3/4/5 才觸發；同輪多顆只算一輪，Wild 不替代。Scatter 不另派彩，可與普通 ways 同局成立；初始 FG 4/6/8 局（Q-06）。win_special_symbols 只標真正 ID2 的可視格，不能把 Wild 標成 Scatter。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K20",
+    "before": "已確認（程式）；條件與次數：待確認（數學）（Q-05）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H23",
+    "before": "加局次數、上限",
+    "after": "開發提案：主遊戲3/4/5輪 Scatter 給4/6/8局；FG 同條件加2/3/4局，整段最多獲授100局（含初始）。remaining=原remaining−1+實際可加局數；total 只增加實際加局數，永不倒退。達上限後不加局也不播加局動畫。FG 結果可出高分、Wild、Scatter，不出低分；具體權重依 Q-01 待驗證。fake_wheels 僅控制視覺。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K23",
+    "before": "已確認（程式）；次數：待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H25",
+    "before": "正式 FG 輪帶、是否含 Scatter（含才可能加局）（Q-06）",
+    "after": "fake_wheels 是視覺資料，不決定加局機率；正式結果可含Scatter，權重配置及驗證見Q-01/Q-06。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K25",
+    "before": "推論（假資料）；待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "E27",
+    "before": "FG 看板金額 = FG END 的 total_win_amount：包含 FG 期間（非末局）觸發並已完成的 JP 獎；不包含末局觸發、尚未進行的 JP。末局觸發 JP 時，JP END 的 total_win_amount = FG 總贏分 + 本次 JP 獎，作為整段特殊遊戲的最終總贏分",
+    "after": "total_win_amount=同段特殊遊戲鏈已完成獎金，含JP→FG之前的JP與FG中已完成JP，不含尚未進行的末局JP。FG看板直接顯示當時total_win_amount；末局JP完成後total_win_amount再加本次JP，回Main顯示最終總獎。每局增量只透過this_win_amount入帳一次。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H27",
+    "before": "末局 JP 情境目前沒有測試資料，JP END total_win_amount 的值依 D09-10 的累計方式推得",
+    "after": "依D12累計統一「特殊遊戲鏈」語意；顯示/帳務驗證需新增末局JP與JP→FG自洽fixture，尚未執行。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H29",
+    "before": "觸發機率、判定單位（每顆 Wild / 每局）、與押注 / state 關係（Q-10）",
+    "after": "開發提案：Main/FG 每局完成結果後，若可視區含 Wild 且 state≥2，每局只判定一次 JP；p_jp[state,mode] 及 eligible-tier 權重為 math.json 必填，依 Q-01 離線設計。state2直接 MINI；其餘在進場固定18蛋內容並保存，點選只揭露，任一合格等級首次集滿3個即結束。只抽已開放等級，不因點選或目前盈虧換內容。不得預先指定一個與實際首次集滿不同的得獎等級；整個板面演算法/分布需驗證。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K29",
+    "before": "已確認（程式）；機率：待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H30",
+    "before": "何時走這條路（Q-09）；state 2 只有 MINI 未壓暗，推論為「只開放 MINI 時直接給 MINI」",
+    "after": "開發提案：state1 無 JP；state2 觸發後直接 END 給 MINI，不建立18蛋互動；state3～5進18蛋。低押注的精確定義依 Q-07 state，不另比對顯示字串。四級 JP 用固定倍數模擬：GRAND 1000×、MAJOR 100×、MINOR 20×、MINI 5×觸發總押注；均為配置，不是原版/累積獎池值，需納入 Q-01 RTP 驗證。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K30",
+    "before": "已確認（程式）；條件：待確認（企劃）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H31",
+    "before": "開獎模式：協定上每次由 server 回傳內容；server 是否進場時預先決定 18 顆內容需決定",
+    "after": "開發提案固定18蛋，進場持久化；PROCESS本次派彩=0，sg_map6=0，第三個同級END才填本次獎金並入帳。已開index新請求409，重送原ID回原結果。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K31",
+    "before": "已確認（程式）；開獎模式：待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H32",
+    "before": "—",
+    "after": "END必帶sg_map1/2（最後選取）、3（得獎）、4（已開=-1的揭示板）、6（JP獎金）；this_win_amount=本次JP新增派彩，balance為提交後值。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H34",
+    "before": "固定倍數 / 固定金額 / 累積獎池、與押注關係",
+    "after": "開發提案：固定倍數模擬，不使用真實累積池；按觸發總注計算GRAND1000x/MAJOR100x/MINOR20x/MINI5x並鎖定本次session金額。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "K34",
+    "before": "已確認（程式）；金額模式：待確認（數學 / 平台）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H40",
+    "before": "server 端入帳順序",
+    "after": "主遊戲扣款及本局增量獎在同交易提交；client報獎只改顯示，不再入帳。FG/JP待各動作合法完成再入帳，遵WAL-005。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H43",
+    "before": "是否只算可視格（Wild_Stop 只在可視格播放，推論是）",
+    "after": "開發作法：僅可視index1～3的Wild各發一次SendCoin；比較總押注先轉成顯示信用點（原始值/10000）；快停/跳過不重複加幣。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H44",
+    "before": "主遊戲 win_type 的 server 判定門檻",
+    "after": "開發演出分級：無獎0；正獎<1x為1、[1,5)為2、[5,10)為3、[10,25)為4、[25,50)為5、[50,100)為6、≥100為7；使用total_bet為基準，與StartGame.WinType一致，不改派彩金額。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H47",
+    "before": "初始餘額、玩家識別方式：允許 AI 決定並記錄（需可設定）",
+    "after": "初始1000.00信用點=10000000原始單位，可設定；本機player_id對應錢包，僅loopback開發環境，正式身分由adapter替換。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H48",
+    "before": "幣別與 currencyRatio 設定值：允許 AI 決定並記錄",
+    "after": "信用點代碼TEST、currencyRatio=0.0001、decimalPlaces=2。Go int64，JSON number限制絕對值≤9007199254740991，超限拒絕；顯示四捨五入不更改帳本。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H49",
+    "before": "餘額不足的錯誤碼：允許 AI 決定並記錄",
+    "after": "餘額不足422 INSUFFICIENT_BALANCE；非法押注422 INVALID_BET；非法狀態/版本409。失敗不產生回合/扣派；client收到拒絕須恢復server餘額。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H51",
+    "before": "—",
+    "after": "JP PROCESS增量0，END/直接MINI才派JP獎。total_win_amount僅為鏈累計，禁止再入帳。回應快取、帳本、結果與狀態同交易提交。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H52",
+    "before": "請求識別欄位名稱與格式：允許 AI 決定並記錄",
+    "after": "採request_id（UUID字串）+player_id+game_id唯一鍵；保存action+規範化payload摘要，異參數同ID回409 IDEMPOTENCY_CONFLICT。expected_version作新動作順序檢查；既有成功ID先回快取，不因重送版本舊而拒絕。"
+  },
+  {
+    "sheet": "規則表",
+    "cell": "H53",
+    "before": "儲存方式（檔案 / SQLite 等）：允許 AI 決定並記錄",
+    "after": "SQLite持久化players/wallet_ledger/rounds/game_states/request_results；database/sql交易同時保存。單玩家有序操作、DB唯一鍵與state_version保護；先提交後回應。重啟測試包含提交後尚未送回應。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "A2",
+    "before": "指令 ID 為 SlotGame；指令名稱：舊版 start_game / spin / next_fever / check_cmd，新版 START_GAME / SPIN / NEXT_FEVER / BONUS_NEXT_FEVER（NetworkProtocol.ts）。回應資料在 cmd_data.data 下。sg_map 使用數字字串鍵，新協定可改為具名欄位，但需以 adapter 相容舊格式。",
+    "after": "本機新client採HTTP POST /api/v1/game/command與START_GAME/SPIN/NEXT_FEVER/CHECK_CMD。請求player_id/request_id/action/expected_version/payload；payload以line_bet為正規名稱，legacy bet_value/BetValue由adapter轉換、衝突拒絕。回應cmd_data.data保存既有欄位；本機schema gh-dev-v1。原公司傳輸/認證未整合。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E7",
+    "before": "押注選項，依 total_bet 降冪",
+    "after": "本機開發方案以總押注降冪；所有金額為整數原始單位，具體配置見Q-07，不直接使用D02小數。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E11",
+    "before": "黃金圖騰門檻（線注）",
+    "after": "五筆嚴格遞增、索引0保留；開發提案值見Q-07。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "H11",
+    "before": "已確認（程式）；值：待確認（企劃）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "C16",
+    "before": "line_bet / bet_value / BetValue",
+    "after": "payload.line_bet（正規）；bet_value/BetValue僅legacy adapter別名"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "D16",
+    "before": "number",
+    "after": "int（安全整數）"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E16",
+    "before": "皆為原始線注",
+    "after": "下注須命中server配置，不信任client傳total_bet；多個別名並存而值不同則拒絕。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E17",
+    "before": "BetLines 固定 1",
+    "after": "BetLines=1；balance不可作帳務來源；client dev_mode不授權強制結果；其他legacy欄位由adapter明列，不影響正式domain權限。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "D22",
+    "before": "number",
+    "after": "金額int；win_type int；serial_id string"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E22",
+    "before": "本局贏分、累計贏分、中獎等級、餘額、序號",
+    "after": "金額為安全整數原始單位；serial_id為round/action識別，不作金額；回應另外帶round_id及state_version。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E37",
+    "before": "恢復用：{\"0\"..\"17\": 獎項 0～3 或 -1（未開）}",
+    "after": "JP恢復物件：0～17對應已開獎項0～3，-1表示未開；不可傳未開真實內容。與END sg_map4不同schema。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E41",
+    "before": "END：18 格內容，已開為 -1",
+    "after": "JP END揭示int[18]：已開為-1、未開為原固定內容；與RECOVERY sg_map0的-1含義分開解析。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E43",
+    "before": "本次（JP）獎金；PROCESS 與 END 都必須帶（測試資料缺此欄，見 Q-14）",
+    "after": "本次JP獎金：開發提案PROCESS=0；END/直接MINI=實際JP獎，與this_win_amount一致。不得因重送再派。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "C45",
+    "before": "請求識別（request ID，或 start_game_info_sn + 序號）",
+    "after": "player_id、request_id、action、expected_version、payload"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "D45",
+    "before": "string",
+    "after": "string/string/string/int/object"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E45",
+    "before": "開發環境用於去重（WAL-006）；欄位名稱允許 AI 決定並記錄",
+    "after": "新動作檢查expected_version；已成功request_id先查原回應。與round_id/state_version一起持久化；作法見WAL-006。"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "H45",
+    "before": "已決定（開發環境）",
+    "after": "已定作法（尚未實作驗證）"
+  },
+  {
+    "sheet": "封包契約",
+    "cell": "E47",
+    "before": "應定義於平台共用規格",
+    "after": "本機錯誤碼/round_id/state_version依Q-11與WAL規則實作；正式平台透過adapter整合，未宣稱完成。"
+  },
+  {
+    "sheet": "執行環境",
+    "cell": "B10",
+    "before": "語言、部署、啟動方式、平台相容需求",
+    "after": "已確定 Go server。採 net/http+JSON、database/sql+SQLite 本機持久化，單一服務可用 go run ./cmd/server，預設127.0.0.1:8080。設定包含DB路徑、初始餘額、math版本；SQLite driver及最低Go版在建置時固定並記錄。Server 依 client 契約實作，不等待另份 server 設計。尚未寫程式/實測，正式平台不在本機範圍。"
+  },
+  {
+    "sheet": "執行環境",
+    "cell": "C10",
+    "before": "—",
+    "after": "使用者指定Go；本版工程方案"
+  },
+  {
+    "sheet": "執行環境",
+    "cell": "D10",
+    "before": "待確認（平台）",
+    "after": "已定作法（尚未實作驗證）"
+  },
+  {
+    "sheet": "執行環境",
+    "cell": "B11",
+    "before": "開發環境：本機模擬錢包，見規則表 WAL-001～008；正式環境：沿用平台共用規格",
+    "after": "Go+SQLite本機模擬錢包；WAL-001～008已補型別、請求去重與重啟作法。正式平台仍需adapter，未驗證。"
+  },
+  {
+    "sheet": "美術風格",
+    "cell": "C10",
+    "before": "切圖 / 畫布、anchor、安全區：待確認（美術）",
+    "after": "開發資產依Q-12：2×輸出、pivot中心、8%安全區、等比fit；正式原版外觀未驗收。"
+  },
+  {
+    "sheet": "UI圖素",
+    "cell": "A2",
+    "before": "資產格式（anchor、動畫幀率、Spine）：待確認（美術）。",
+    "after": "開發版依Q-12採RGBA PNG、tween/序列動畫；Coin24幀24fps。資產manifest需列frame/尺寸/用途。無原版參考圖時不宣稱重現。"
+  },
+  {
+    "sheet": "黃金圖騰",
+    "cell": "A2",
+    "before": "演算法與格式見規則表 GOLD-001～003。extra_info.gold_sym 需 5 筆升冪門檻，state = 1 + 最大的 i（1～4）使 線注 ≥ gold_sym[i].value。門檻實際值：待確認（企劃）。",
+    "after": "開發提案：gold_sym.value=[0,250,1000,3000,10000]原始線注單位；第0筆保留。state預設1，從i=1～4找線注達到的最大i後設1+i；非法/非嚴格升冪配置拒絕。詳細配置見Q-07，非原版核定。"
+  },
+  {
+    "sheet": "聚寶盆金幣",
+    "cell": "A17",
+    "before": "金額單位：門檻寫死在 G24_Pot.ts，與 eventClickChangeBet 傳入的總押注同單位；是否為顯示金額、幣別：待確認（平台）。",
+    "after": "開發作法：表格門檻採顯示信用點；原始total_bet除10000後比較，或將門檻精確轉成整數。只累加可視格Wild，每格每次停輪一次，不影響JP機率。"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "A2",
+    "before": "詳細協定見規則表 FG-001～005、封包契約。",
+    "after": "FG-001～007及封包契約定義流程；次數與取樣另見Q-06開發提案，不是原版正式數學。"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "B4",
+    "before": "spin 回應 game_state{sg_state:1, current_sg_id:0}；Scatter 位置在 win_special_symbols。判定條件（輪 / 顆）、次數",
+    "after": "開發提案：前三輪起連續≥3輪各有自然Scatter才觸發；3/4/5輪給4/6/8局，不受Wild替代；以server狀態與標記回傳。"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "C4",
+    "before": "已確認（程式）；條件：待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "B6",
+    "before": "假資料只含高分 14～18 與 WILD（無 Scatter、無低分）；client 依觸發時 state 顯示黃金版（FG 中押注鎖定）",
+    "after": "fake_wheels只作視覺；開發提案正式結果可含高分、Wild、Scatter，不含低分；依鎖定state轉換後結算。權重仍需Q-01驗證。"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "C6",
+    "before": "推論（假資料）；正式輪帶：待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "B8",
+    "before": "scatterAry 非空或 sg_map\"6\"=true → Mystery 看板 + Retrigger 訊息，總次數增加",
+    "after": "開發提案：FG連續3/4/5輪自然Scatter加2/3/4局，整段授予最多100局；只增加實際獲授次數，remaining>0回PROCESS，總次數不倒退。"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "C8",
+    "before": "已確認（程式）；次數：待確認（數學）",
+    "after": "開發版提案（非正式核定）"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "B9",
+    "before": "total_win_amount 為整段累計，含 FG 期間觸發的 JP 獎",
+    "after": "total_win_amount統一為同段特殊遊戲鏈累計，含JP→FG之前與FG中已完成JP；不是單純FG自身派彩。"
+  },
+  {
+    "sheet": "FG免費旋轉",
+    "cell": "B11",
+    "before": "FG 看板 = FG END 的 total_win_amount：含 FG 期間已完成的 JP，不含末局觸發、尚未進行的 JP；末局 JP 結束後的最終總贏分 = FG + JP（FG-007）",
+    "after": "看板使用當時鏈累計total_win_amount；包含先JP後FG及中途JP，不含尚未進行的末局JP。末局JP後再顯示最終鏈總獎。"
+  },
+  {
+    "sheet": "JP砸金蛋",
+    "cell": "A2",
+    "before": "協定見規則表 JP-001～006。18 顆蛋排成 6 欄 × 3 列，index 依欄由上而下：第 1 欄 0/1/2、第 2 欄 3/4/5…第 6 欄 15/16/17。\n某獎項最先集滿 3 個即得該等級並結束；同色 2 個時發光預告；逾時 10 秒自動選。進場也可能直接給 MINI（不開砸蛋）。",
+    "after": "開發提案：18蛋6欄×3列，index依欄由上到下。state1不觸發；state2直接MINI；state3～5固定板面點選揭露，首次同級3個END、2個預告；10秒自動選。僅能開出解鎖級別，獎金固定倍數模擬見Q-08～10。"
+  },
+  {
+    "sheet": "測試資料",
+    "cell": "A2",
+    "before": "收錄 client 本地假資料，供驗收案例引用（編號 Dxx-n = 第 xx 組第 n 筆訊息）。JSON 為原始內容。這些資料只能驗證流程與欄位格式，金額不自洽、賠率為測試值，不得當作數學期望值（見待決事項 Q-14）。",
+    "after": "歷史原始JSON保留不改，Dxx-n對應原序列。可驗部分parser/動畫，不作新server數學或計數正確性的答案。已知異常：D02單位排序/缺欄、D07-1 Wild標Scatter、D07-END總數倒退、JP缺金額、部分累計不自洽。依Q-14另建normalized fixtures，保留來源與修正說明。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "A2",
+    "before": "期望行為依本規格；金額類期望值須由數學文件獨立提供，不能拿程式輸出當答案（標「待確認（數學）」）。輸入欄的 Dxx-n 為「測試資料」工作表的編號；測試資料只能驗流程，金額不自洽（Q-14）。",
+    "after": "案例描述與執行結果分離：本表均未代表測試已通過。Dxx是歷史流程樣本，不當正確結算答案。開發玩法依Q-02～10提案；正式數學與96.8%另驗證。新增normalized fixture需保留獨立預期值及來源。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D10",
+    "before": "待數學提供盤面",
+    "after": "固定單一symbol的3/4/5連盤面，paytable採獨立fixture；數學配置版本必填。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "E10",
+    "before": "每個 symbol 只顯示最長一筆（待確認）",
+    "after": "開發提案：每symbol僅一筆最長連線；不再支付較短子段，win依Q-02。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "G10",
+    "before": "待確認（數學）",
+    "after": "作法已填；待執行"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D11",
+    "before": "待數學提供",
+    "after": "固定每輪自然數/ Wild數；至少涵蓋2×1×1=2 ways與純Wild路徑扣除。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "E11",
+    "before": "ways_count = 各輪數量相乘",
+    "after": "普通ways=各輪有效數量乘積；Wild情況扣除純Wild路徑，使用Q-03公式。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "G11",
+    "before": "待確認（數學）",
+    "after": "作法已填；待執行"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "E14",
+    "before": "state = 3（等號成立）",
+    "after": "前提門檻嚴格遞增；線注等於第2門檻且未達第3門檻，state=3；非法配置拒絕。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "E16",
+    "before": "第一種觸發 FG；其餘待數學",
+    "after": "開發提案：前3輪自然Scatter成立才觸發；缺首輪/中斷不觸發，同輪多顆只算1輪；Wild不替代。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "G16",
+    "before": "待確認（數學）",
+    "after": "開發提案；待執行"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D18",
+    "before": "D07-3～D07-7",
+    "after": "依Q-14重建自洽序列；不可直接把D07-7錯誤金額當答案。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D19",
+    "before": "D07-6（sg_map\"1\" 4→6）",
+    "after": "normalized fixture：總數4→6後保持6至END；原D07-END=4屬歷史錯誤。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D20",
+    "before": "D07-8（最後一局直接 END）",
+    "after": "normalized fixture：末局END同時帶盤面，剩餘0、總數含加局且不倒退。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D21",
+    "before": "正式 FG 輪帶",
+    "after": "Q-06正式結果允許集合+每state轉換表；fake_wheels另測視覺。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "G21",
+    "before": "待確認（數學）",
+    "after": "作法已填；權重待驗證"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D23",
+    "before": "① D09（第 3 局觸發 JP）② 末局觸發 JP（無測試資料）",
+    "after": "新增兩組自洽fixture：中途JP→FG、末局JP；另驗JP→FG累計。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "E23",
+    "before": "① FG 看板 = D09-11 total_win_amount（含 JP）② FG 看板不含 JP；JP 結束後總贏分 = FG + JP",
+    "after": "看板為特殊遊戲鏈當時總獎；末局未完成JP先不計，JP完成才加入，帳務不重加累計。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D25",
+    "before": "進場回應直接 END",
+    "after": "開發提案state2觸發JP，server直接END，帶this_win_amount/sg_map6/balance。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "G25",
+    "before": "已確認（程式）",
+    "after": "開發提案；待執行"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D26",
+    "before": "D10-2～D10-10",
+    "after": "normalized JP fixture：PROCESS有index/tier/this_win_amount=0/sg_map6=0，固定板面可重啟恢復。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D27",
+    "before": "D10-11",
+    "after": "normalized JP第三枚同色END，含最後index/tier、得獎、揭示板、sg_map6與入帳後balance。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D32",
+    "before": "FG END + sg_map\"5\"=true（無測試資料）",
+    "after": "新增FG END帶JP的完整序列，含JP END增量與最終鏈累計。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "D34",
+    "before": "PROCESS 帶 sg_map\"5\"、\"6\" = true（無測試資料）",
+    "after": "新增原剩1局加2局並觸發JP：PROCESS剩2局、總數+2；JP結束恢復2局。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "E43",
+    "before": "結束後餘額 = 觸發前餘額 + 整段 total_win_amount",
+    "after": "基準B0為主遊戲SPIN前：最終餘額=B0−total_bet+主遊戲增量獎+所有FG增量獎+各JP獎；每筆只入帳一次，total_win_amount不再入帳。"
+  },
+  {
+    "sheet": "驗收案例",
+    "cell": "G43",
+    "before": "已決定（開發環境）",
+    "after": "公式已補；待執行"
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "Game": {
+      "time": 1792659665948.5225,
+      "uuid": "ad9ec8b5-f595-4fc1-a94b-d613a7380412"
+    },
+    "scripts": {
+      "time": 1792659665955.5247,
+      "uuid": "0977c472-781d-475b-8c1b-cc414cb627af"
+    },
+    "Game\\Art": {
+      "time": 1792659665809.3591,
+      "uuid": "1992bb76-e122-4079-b2f6-1f72c1e2105b"
+    },
+    "Game\\Scenes": {
+      "time": 1792659665946.523,
+      "uuid": "4f481ffd-fbc9-438f-8fa9-1780e390b4ca"
+    },
+    "Game\\Scripts": {
+      "time": 1793066901201.7244,
+      "uuid": "1e802d64-be97-44a1-b1bc-eebe42a8166a"
+    },
+    "scripts\\common": {
+      "time": 1792659666033.2637,
+      "uuid": "648f7a71-187f-437c-84e9-27b0223016ac"
+    },
+    "Game\\Art\\AI": {
+      "time": 1793066901084.5486,
+      "uuid": "e03bf69a-0e96-47fd-be7a-9c841811a172"
+    },
+    "scripts\\common\\cocos": {
+      "time": 1792659666048.2769,
+      "uuid": "7469c18f-bf22-42a3-96f8-ab62f027d833"
+    },
+    "Game\\Scripts\\GoldenHenReelSkin.ts": {
+      "time": 1793066894293.3083,
+      "uuid": "28698c5f-08de-49bd-8a64-1bf8fd572ec1"
+    },
+    "scripts\\common\\autospin.ts": {
+      "time": 1792657747803.4468,
+      "uuid": "46662181-7f2a-450b-9ee2-55c03494abc8"
+    },
+    "scripts\\common\\events.ts": {
+      "time": 1792657952940.2036,
+      "uuid": "26290e74-9a77-4d33-8a90-9349caa16ae9"
+    },
+    "scripts\\common\\host.ts": {
+      "time": 1792657746285.193,
+      "uuid": "58b57de8-ae65-4b49-af1e-54ada771ed02"
+    },
+    "scripts\\common\\index.ts": {
+      "time": 1792657417275.563,
+      "uuid": "197efe2a-598f-4789-acda-d5e9963fa699"
+    },
+    "scripts\\common\\model.ts": {
+      "time": 1792657174290.697,
+      "uuid": "666067c4-28ff-4ff1-b33b-e4707bd60ac5"
+    },
+    "scripts\\common\\money.ts": {
+      "time": 1792657176892.7954,
+      "uuid": "503cfbd8-d321-42d8-8a94-7395c7d27f4d"
+    },
+    "scripts\\common\\network.ts": {
+      "time": 1793066574272.1072,
+      "uuid": "066c16ad-ce50-4004-bf2a-edc7a2408357"
+    },
+    "scripts\\common\\presentation.ts": {
+      "time": 1792657268717.4138,
+      "uuid": "5b3ca1ba-f3d2-4571-9a21-6f0a0baa85a9"
+    },
+    "scripts\\common\\protocol.ts": {
+      "time": 1792657749229.5825,
+      "uuid": "e8db43e8-53a4-40b8-bcf3-ef87063312f1"
+    },
+    "scripts\\common\\resources.ts": {
+      "time": 1792657415944.8904,
+      "uuid": "dca97d20-e1f8-469f-836a-884acd9c32c9"
+    },
+    "scripts\\common\\special.ts": {
+      "time": 1792659028818.362,
+      "uuid": "1dc449d8-2bc2-4d7b-ba32-b061dea706c3"
+    },
+    "scripts\\common\\storage.ts": {
+      "time": 1792657750563.9138,
+      "uuid": "5b67d3c3-157c-470b-872f-632612cca48d"
+    },
+    "scripts\\common\\timing.ts": {
+      "time": 1792657178232.4438,
+      "uuid": "d02bcaf9-ae69-4a91-8e53-9ad9a226f6af"
+    },
+    "scripts\\common\\cocos\\CocosReelColumn.ts": {
+      "time": 1792660067510.7585,
+      "uuid": "f2dc890d-8c15-404f-887c-3b9a09235f3c"
+    },
+    "scripts\\common\\cocos\\CocosSlotDriver.ts": {
+      "time": 1792659355994.1409,
+      "uuid": "94a4611e-6349-4d34-b41e-1df2d8f1b31c"
+    },
+    "scripts\\common\\cocos\\CocosSpecialPanel.ts": {
+      "time": 1792659030098.844,
+      "uuid": "2c4be425-8b2c-4e34-862c-59d276bf4f4f"
+    },
+    "Game.meta": {
+      "time": 1792659510056.9285
+    },
+    "scripts.meta": {
+      "time": 1792658627167.0327
+    },
+    "Game\\Art.meta": {
+      "time": 1792659510057.9226
+    },
+    "Game\\Scenes.meta": {
+      "time": 1792659510063.9216
+    },
+    "Game\\Scripts.meta": {
+      "time": 1792659510059.9292
+    },
+    "scripts\\common.meta": {
+      "time": 1792658627172.5503
+    },
+    "Game\\Art\\AI.meta": {
+      "time": 1792659510058.9297
+    },
+    "scripts\\common\\cocos.meta": {
+      "time": 1792658627175.5515
+    },
+    "Game\\Scripts\\GoldenHenReelSkin.ts.meta": {
+      "time": 1792659510077.9424
+    },
+    "scripts\\common\\autospin.ts.meta": {
+      "time": 1792658627191.4666
+    },
+    "scripts\\common\\events.ts.meta": {
+      "time": 1792658627198.2168
+    },
+    "scripts\\common\\host.ts.meta": {
+      "time": 1792658627208.3975
+    },
+    "scripts\\common\\index.ts.meta": {
+      "time": 1792658627216.147
+    },
+    "scripts\\common\\model.ts.meta": {
+      "time": 1792658627223.6594
+    },
+    "scripts\\common\\money.ts.meta": {
+      "time": 1792658627231.982
+    },
+    "scripts\\common\\network.ts.meta": {
+      "time": 1792658627249.3276
+    },
+    "scripts\\common\\presentation.ts.meta": {
+      "time": 1792658627259.7932
+    },
+    "scripts\\common\\protocol.ts.meta": {
+      "time": 1792658627265.513
+    },
+    "scripts\\common\\resources.ts.meta": {
+      "time": 1792658627271.5537
+    },
+    "scripts\\common\\special.ts.meta": {
+      "time": 1792658627288.4688
+    },
+    "scripts\\common\\storage.ts.meta": {
+      "time": 1792658627304.1047
+    },
+    "scripts\\common\\timing.ts.meta": {
+      "time": 1792658627310.7144
+    },
+    "scripts\\common\\cocos\\CocosReelColumn.ts.meta": {
+      "time": 1792658627315.2053
+    },
+    "scripts\\common\\cocos\\CocosSlotDriver.ts.meta": {
+      "time": 1792658627318.1538
+    },
+    "scripts\\common\\cocos\\CocosSpecialPanel.ts.meta": {
+      "time": 1792658627322.2915
+    },
+    "Game\\Scenes\\GoldenHenMain.scene": {
+      "time": 1793066624479.7732,
+      "uuid": "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7"
+    },
+    "Game\\Art\\AI\\goldenhen_background.png": {
+      "time": 1792658917779.369,
+      "uuid": "c5566319-e2a4-4351-9138-64bf60d6be0c"
+    },
+    "Game\\Art\\AI\\goldenhen_reel_board.png": {
+      "time": 1792659003121.5388,
+      "uuid": "f6eb50e8-8086-484f-8f34-7afd9a89ee5c"
+    },
+    "Game\\Art\\AI\\goldenhen_symbol_sheet.png": {
+      "time": 1792659108309.3313,
+      "uuid": "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603"
+    },
+    "Game\\Scenes\\GoldenHenMain.scene.meta": {
+      "time": 1793066624483.289
+    },
+    "Game\\Art\\AI\\goldenhen_reel_board.png.meta": {
+      "time": 1793066943005.3333
+    },
+    "Game\\Art\\AI\\goldenhen_background.png.meta": {
+      "time": 1793066943025.6506
+    },
+    "Game\\Art\\AI\\goldenhen_symbol_sheet.png.meta": {
+      "time": 1793066943036.1763
+    },
+    "Game\\Scripts\\GoldenHenGameControls.ts": {
+      "time": 1793067017297.646,
+      "uuid": "0c554bc1-526d-4d15-84e7-c464450a2bab"
+    },
+    "Game\\Scripts\\GoldenHenGameControls.ts.meta": {
+      "time": 1793066624473.7817
+    },
+    "Game\\Art\\AI\\README.md": {
+      "time": 1792660361080.7158,
+      "uuid": "81c195bc-0cc1-4563-8fc5-5403c519a8b2"
+    },
+    "Game\\Art\\AI\\README.md.meta": {
+      "time": 1792660446841.388
+    }
+  },
+  "missing": {}
+}

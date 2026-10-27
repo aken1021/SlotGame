@@ -1,0 +1,82 @@
+{
+  "scene": "assets/Game/Scenes/GoldenHenMain.scene",
+  "sceneUuid": "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7",
+  "resolution": [
+    1280,
+    720
+  ],
+  "reelArea": [
+    990,
+    430
+  ],
+  "visibleWell": [
+    171,
+    304
+  ],
+  "reels": 5,
+  "rows": 3,
+  "initialMode": "local-server-auto-connect",
+  "images": [
+    {
+      "uuid": "c5566319-e2a4-4351-9138-64bf60d6be0c",
+      "frame": "c5566319-e2a4-4351-9138-64bf60d6be0c@f9941",
+      "width": 1672,
+      "height": 941,
+      "name": "goldenhen_background.png"
+    },
+    {
+      "uuid": "f6eb50e8-8086-484f-8f34-7afd9a89ee5c",
+      "frame": "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@f9941",
+      "width": 1902,
+      "height": 827,
+      "name": "goldenhen_reel_board.png"
+    },
+    {
+      "uuid": "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603",
+      "frame": "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@f9941",
+      "width": 1536,
+      "height": 1024,
+      "name": "goldenhen_symbol_sheet.png"
+    }
+  ],
+  "symbolSheet": {
+    "columns": 3,
+    "rows": 2,
+    "ids": [
+      15,
+      16,
+      17,
+      18,
+      14,
+      1
+    ]
+  },
+  "previewSymbols": [
+    [
+      15,
+      14,
+      17
+    ],
+    [
+      16,
+      1,
+      18
+    ],
+    [
+      14,
+      15,
+      16
+    ],
+    [
+      17,
+      18,
+      14
+    ],
+    [
+      1,
+      16,
+      15
+    ]
+  ],
+  "notes": "Scene Board footprint includes frame; each inner well is masked. Initial icons are preview art, not a result."
+}

@@ -1,0 +1,10 @@
+{
+  "gameId": "GoldenHen",
+  "initialBalance": 100000000,
+  "bets": [
+    {"lineBet": 1000, "totalBet": 50000},
+    {"lineBet": 500, "totalBet": 25000},
+    {"lineBet": 100, "totalBet": 5000}
+  ],
+  "math": null
+}

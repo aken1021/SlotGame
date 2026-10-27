@@ -1,0 +1,113 @@
+[
+    1,
+    [
+        "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "goldenhen_reel_board",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1902,
+                "height": 827
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 1902,
+                "height": 827
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "vertices": {
+                "rawPosition": [
+                    -951,
+                    -413.5,
+                    0,
+                    951,
+                    -413.5,
+                    0,
+                    -951,
+                    413.5,
+                    0,
+                    951,
+                    413.5,
+                    0
+                ],
+                "indexes": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    1,
+                    3
+                ],
+                "uv": [
+                    0,
+                    827,
+                    1902,
+                    827,
+                    0,
+                    0,
+                    1902,
+                    0
+                ],
+                "nuv": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "minPos": {
+                    "x": -951,
+                    "y": -413.5,
+                    "z": 0
+                },
+                "maxPos": {
+                    "x": 951,
+                    "y": 413.5,
+                    "z": 0
+                }
+            },
+            "packable": false,
+            "pixelsToUnit": 100,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "meshType": 0
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

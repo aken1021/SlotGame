@@ -1,0 +1,11 @@
+{
+  "game_id": "GoldenHen",
+  "spec_sources": ["規格書/GoldenHen_AI規格書.xlsx", "GoldenHen_Client/docs/protocol.md", "2026-10-27 使用者授權建立開發版規則"],
+  "requirements": [
+    {"id":"SRV-API","source":"client/docs/protocol.md","rule":"提供 gh-client-v1 完整快照與命令","acceptance":"真實 client 核心可初始化、Spin 與恢復","status":"confirmed","implementation":"internal/slot/http.go"},
+    {"id":"SRV-WAL","source":"規則表 WAL-001～008","rule":"整數本機錢包與結果原子持久化，同 ID 不重扣或重抽","acceptance":"重送、併發、丟失回應與重啟測試通過","status":"confirmed","implementation":"internal/slot/store.go"},
+    {"id":"SRV-SEQ","source":"規則表 FG-004/006、SEQ-001/002/003/006","rule":"末局加局及 JP/FG 鏈的次數與回復順序一致","acceptance":"人工固定盤面測試流程及餘額","status":"confirmed","implementation":"internal/slot/engine.go"},
+    {"id":"SRV-MATH-DEV","source":"2026-10-27 使用者回覆：授權建立開發版規則","rule":"獨立、可替換的開發規則，不作正式 RTP 主張","acceptance":"明確啟動旗標、設定版本、MATH.md、可完整結束特殊遊戲鏈","status":"demo","implementation":"config/development.json"},
+    {"id":"SRV-LOCAL","source":"WAL-001、AI 工程選擇","rule":"只供本機，loopback 及本機 CORS，玩家識別不是正式認證","acceptance":"外部 origin 拒絕；未設定數學時拒絕 Spin","status":"assumption","implementation":"cmd/goldenhen/main.go"}
+  ]
+}

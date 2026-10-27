@@ -1,0 +1,28 @@
+{
+  "name": "GoldenHenPreview",
+  "platform": "web-desktop",
+  "buildPath": "project://build",
+  "outputName": "goldenhen-preview",
+  "debug": true,
+  "sourceMaps": true,
+  "startScene": "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7",
+  "scenes": [
+    {
+      "url": "db://assets/Game/Scenes/GoldenHenMain.scene",
+      "uuid": "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7"
+    }
+  ],
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "packages": {
+    "web-desktop": {
+      "resolution": {
+        "designWidth": 1280,
+        "designHeight": 720
+      },
+      "useWebGPU": false
+    }
+  },
+  "useSplashScreen": false
+}

@@ -1,0 +1,38 @@
+{
+    "version": "1.0.1",
+    "data": {
+        "paths": [
+            "Game",
+            "scripts",
+            "Game\\Art",
+            "Game\\Scenes",
+            "Game\\Scripts",
+            "scripts\\common",
+            "Game\\Art\\AI",
+            "scripts\\common\\cocos",
+            "Game\\Scripts\\GoldenHenGameControls.ts",
+            "Game\\Scripts\\GoldenHenReelSkin.ts",
+            "scripts\\common\\autospin.ts",
+            "scripts\\common\\events.ts",
+            "scripts\\common\\host.ts",
+            "scripts\\common\\index.ts",
+            "scripts\\common\\model.ts",
+            "scripts\\common\\money.ts",
+            "scripts\\common\\network.ts",
+            "scripts\\common\\presentation.ts",
+            "scripts\\common\\protocol.ts",
+            "scripts\\common\\resources.ts",
+            "scripts\\common\\special.ts",
+            "scripts\\common\\storage.ts",
+            "scripts\\common\\timing.ts",
+            "scripts\\common\\cocos\\CocosReelColumn.ts",
+            "scripts\\common\\cocos\\CocosSlotDriver.ts",
+            "scripts\\common\\cocos\\CocosSpecialPanel.ts",
+            "Game\\Scenes\\GoldenHenMain.scene",
+            "Game\\Art\\AI\\goldenhen_background.png",
+            "Game\\Art\\AI\\goldenhen_reel_board.png",
+            "Game\\Art\\AI\\goldenhen_symbol_sheet.png",
+            "Game\\Art\\AI\\README.md"
+        ]
+    }
+}

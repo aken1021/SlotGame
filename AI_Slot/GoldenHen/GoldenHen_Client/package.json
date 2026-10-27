@@ -1,0 +1,26 @@
+{
+  "name": "ai-slot-client-common",
+  "version": "0.1.0",
+  "private": true,
+  "creator": {
+    "version": "3.8.8"
+  },
+  "uuid": "ce706222-8135-4f5b-bce4-e4b5e7ac3231",
+  "description": "Engine-independent TypeScript slot client modules with Cocos Creator adapters",
+  "scripts": {
+    "build": "node node_modules/typescript/bin/tsc -p tsconfig.core.json",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "check": "npm test && npm run check:cocos-syntax",
+    "check:cocos-syntax": "node tools/check-cocos-syntax.cjs",
+    "check:cocos": "node node_modules/typescript/bin/tsc -p tsconfig.json --noEmit",
+    "scene:build": "node tools/build-goldenhen-scene.cjs",
+    "test:go": "npm run build && node tools/test-go-server.cjs",
+    "demo": "npm run build && node examples/headless-demo.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4"
+  }
+}

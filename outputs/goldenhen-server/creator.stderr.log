@@ -1,0 +1,27 @@
+[48480:1027/101522.130:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[48480:1027/101522.131:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[48480:1027/101522.131:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[48480:1027/101522.135:ERROR:disk_cache.cc(208)] Unable to create cache
+[48480:1027/101522.135:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+[48480:1027/101522.138:ERROR:disk_cache.cc(208)] Unable to create cache
+[48480:1027/101522.138:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+[48480:1027/101522.139:ERROR:disk_cache.cc(208)] Unable to create cache
+[48480:1027/101522.139:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+web-desktop 插件构建配置无版本号，将跳过数据迁移
+构建参数 mainBundleCompressionType (merge_dep) 校验失败,  compression type(undefined) is invalid for this platform!, 将会使用默认值 "merge_dep"
+Warn: [Assets] 移除插屏配置失败，将使用默认插屏进行构建。激活移除插屏功能请前往 项目 -> 构建发布 -> 编辑构建项目配置 完善相关信息。
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\node_modules\@sentry\core\src\utils-hoist\instrument\console.ts:40:14)
+    at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1637)
+    at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2358)
+    at getSplashSettings (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\setting-task\utils\project-options.ccc:1:1879)
+    at patchOptionsToSettings (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\setting-task\utils\project-options.ccc:1:1289)
+    at BuildTask.handle (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\tasks\setting-task\options.ccc:1:334)
+    at BuildTask.runBuildTask (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13628)
+    at BuildTask.run (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:4767)
+    at build (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4763)
+    at Ipc.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:210)
+2026-10-27 10:16:28 - warn: 移除插屏配置失败，将使用默认插屏进行构建。激活移除插屏功能请前往 项目 -> 构建发布 -> 编辑构建项目配置 完善相关信息。
+
+[48480:1027/101630.255:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[48480:1027/101630.278:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)
+[48480:1027/101630.278:ERROR:cache_util_win.cc(20)] Unable to move the cache: 存取被拒。 (0x5)

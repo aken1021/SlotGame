@@ -1,0 +1,481 @@
+{
+  "ad9ec8b5-f595-4fc1-a94b-d613a7380412": {
+    "url": "db://assets/Game",
+    "value": {},
+    "versionCode": 1
+  },
+  "0977c472-781d-475b-8c1b-cc414cb627af": {
+    "url": "db://assets/scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1992bb76-e122-4079-b2f6-1f72c1e2105b": {
+    "url": "db://assets/Game/Art",
+    "value": {},
+    "versionCode": 1
+  },
+  "4f481ffd-fbc9-438f-8fa9-1780e390b4ca": {
+    "url": "db://assets/Game/Scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "1e802d64-be97-44a1-b1bc-eebe42a8166a": {
+    "url": "db://assets/Game/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "648f7a71-187f-437c-84e9-27b0223016ac": {
+    "url": "db://assets/scripts/common",
+    "value": {},
+    "versionCode": 1
+  },
+  "e03bf69a-0e96-47fd-be7a-9c841811a172": {
+    "url": "db://assets/Game/Art/AI",
+    "value": {},
+    "versionCode": 1
+  },
+  "7469c18f-bf22-42a3-96f8-ab62f027d833": {
+    "url": "db://assets/scripts/common/cocos",
+    "value": {},
+    "versionCode": 1
+  },
+  "28698c5f-08de-49bd-8a64-1bf8fd572ec1": {
+    "url": "db://assets/Game/Scripts/GoldenHenReelSkin.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "46662181-7f2a-450b-9ee2-55c03494abc8": {
+    "url": "db://assets/scripts/common/autospin.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "26290e74-9a77-4d33-8a90-9349caa16ae9": {
+    "url": "db://assets/scripts/common/events.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "58b57de8-ae65-4b49-af1e-54ada771ed02": {
+    "url": "db://assets/scripts/common/host.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "197efe2a-598f-4789-acda-d5e9963fa699": {
+    "url": "db://assets/scripts/common/index.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "666067c4-28ff-4ff1-b33b-e4707bd60ac5": {
+    "url": "db://assets/scripts/common/model.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "503cfbd8-d321-42d8-8a94-7395c7d27f4d": {
+    "url": "db://assets/scripts/common/money.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "066c16ad-ce50-4004-bf2a-edc7a2408357": {
+    "url": "db://assets/scripts/common/network.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5b3ca1ba-f3d2-4571-9a21-6f0a0baa85a9": {
+    "url": "db://assets/scripts/common/presentation.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e8db43e8-53a4-40b8-bcf3-ef87063312f1": {
+    "url": "db://assets/scripts/common/protocol.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dca97d20-e1f8-469f-836a-884acd9c32c9": {
+    "url": "db://assets/scripts/common/resources.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1dc449d8-2bc2-4d7b-ba32-b061dea706c3": {
+    "url": "db://assets/scripts/common/special.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5b67d3c3-157c-470b-872f-632612cca48d": {
+    "url": "db://assets/scripts/common/storage.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d02bcaf9-ae69-4a91-8e53-9ad9a226f6af": {
+    "url": "db://assets/scripts/common/timing.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f2dc890d-8c15-404f-887c-3b9a09235f3c": {
+    "url": "db://assets/scripts/common/cocos/CocosReelColumn.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "94a4611e-6349-4d34-b41e-1df2d8f1b31c": {
+    "url": "db://assets/scripts/common/cocos/CocosSlotDriver.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2c4be425-8b2c-4e34-862c-59d276bf4f4f": {
+    "url": "db://assets/scripts/common/cocos/CocosSpecialPanel.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3d6a5057-1d04-4584-8cea-8f0dea9a1cc7": {
+    "url": "db://assets/Game/Scenes/GoldenHenMain.scene",
+    "value": {
+      "depends": [
+        "fcbf1655-c661-4775-b4d8-ba1110563066",
+        "59d30387-b0b8-4dfa-b54c-f15e324ee763",
+        "b583a022-ba6f-4d90-9fe5-125044db9123",
+        "220fd517-5b3e-41e2-b0ab-1f14f3a200a3",
+        "4566a0b0-dde3-4a21-930a-de3788e849de",
+        "79c9ede9-e8bb-49c0-b5d2-de889291f431",
+        "f97d1290-6a71-42ed-a787-3ef29e967acc",
+        "6035b151-4765-4c93-a96e-5bff11fa3441",
+        "c5566319-e2a4-4351-9138-64bf60d6be0c@f9941",
+        "5c5e478e-9825-480d-a25d-86e1f629c6d4",
+        "30ca4974-1a17-432f-97a7-2234ecb5731b",
+        "0ce23441-ae8d-44a1-9fab-ebda8e64c1a2",
+        "22dbd6f7-3d23-4f28-99f7-5faa6e08bb89",
+        "6b619e4e-46b5-4428-9e28-4070ed1183d7",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "0846098b-6fa8-48d6-861a-a1cd4bffb349",
+        "460f1693-9ba0-42b3-8722-343094f2685d",
+        "cc121313-4a59-40b9-87c5-350145821e8f",
+        "98a64d04-fcd7-477c-803f-3639a7140271",
+        "52d68fb5-5041-4252-a704-ad33fa27d322",
+        "eb4155b1-2747-462b-a43a-6d807470d71b",
+        "9d001d58-1b1a-48e6-acce-99280e285564",
+        "75ddb8bf-4b63-47e8-8a7e-4b57e5ec6986",
+        "c2ebec49-614d-44a8-bc05-f90b155e60ec",
+        "708b8afb-a92d-45b6-bfc8-ad4098265d1c",
+        "fe4ef8fd-504b-4768-ad31-f1cadb1cf077",
+        "8ed7c8c7-f37e-444e-ba78-ab4f6520944e",
+        "baf54d35-00e3-40ab-af5d-f795d1ccc3ec",
+        "aa1bacfc-9421-4ef8-9ff0-d697c6d31c33",
+        "3ec877f5-032d-482f-928b-22193395c802",
+        "76702a26-042d-4a46-8ad3-f41d1352ff6a",
+        "95a0e3d7-224b-4f5e-b844-0eaa71859b05",
+        "06990e70-9ee6-4787-b602-0595cec12051",
+        "76d3e10c-129b-4c0d-adbc-22b4ed49c867",
+        "09045455-8674-4269-9ebd-9c7ffe0bfbe6",
+        "002e403e-209c-4a2c-97a9-bfbc3dbfc52e",
+        "378986ce-ab0d-4978-905e-62da368b2986",
+        "0601a324-2608-4a82-a2f8-2dfa64195876",
+        "08aeba6e-bee9-4310-98d7-b76e555b3cc0",
+        "ac41e1c8-00f6-48c9-90d4-aa6d13fcc8f0",
+        "b633f142-b001-448c-aad8-550f20c04fe9",
+        "f9e116d3-5ee9-4933-850b-7377736d59c1",
+        "a144a68b-6ab8-471a-8997-9fcf3006aa33",
+        "9c16babf-4c50-4aae-b480-62ffaf01280a",
+        "084fe6a6-e172-4bb4-8dc1-7a18fd912fe4",
+        "74068037-57df-45b3-9273-52b6401b1b24",
+        "4c8a05ba-60a8-4aad-80bb-a26fb65514d0",
+        "e4b53d94-1b6c-4a8c-973f-1302199334de",
+        "2076c7fb-7702-4133-b3cd-22d542254f82",
+        "8ec61b7e-06e4-4659-90bd-0c13a171a36c",
+        "848cdbaf-4e8d-43da-9a14-baf1c513b285",
+        "1e0c06e7-366b-4781-a748-f9a82f0fceab",
+        "50bd5a4a-f7a3-43a2-a498-175924e74f65",
+        "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@f9941",
+        "afe3969d-37b1-4b6c-b743-192f25c3870c",
+        "c0814a73-7ede-4a9b-ab6e-87f6c1e0b45e",
+        "10a44197-1259-4253-82c0-049c9e621bab",
+        "20f69d42-233f-4452-a2c5-6a26fb015963",
+        "e4e8f9cc-e69e-4cf0-b8b0-6ee16c03fdd5",
+        "9c860684-a1de-4a13-ba42-db2f82aebc62",
+        "ccb48a22-75df-4334-b503-c23c96f8b840",
+        "f8c8b9c0-7c9a-4802-8a16-373d0d0e5841",
+        "30b398fa-bc42-4b48-806c-9d3adbc268b6",
+        "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@f9941",
+        "e5bd0d96-031d-4ae9-bab9-fe78ce39e1e3",
+        "677e8103-837a-4e16-bcbd-9627cf2a1015",
+        "343b4882-560b-4d0d-853a-637aff61c435",
+        "c629ad56-fb75-4a4b-9065-3163c5c6d5d7",
+        "1797c75f-a296-4d96-a3fd-f81b9b49566a",
+        "edb03cba-bba0-4854-ba23-4784cc81dde2",
+        "f04cbb5f-4a72-4e62-b366-ac40e362d5d6",
+        "c68274bd-d054-45b3-bffe-ce4d4bd21537",
+        "329f3b73-a336-4883-9956-7f6fe59f1685",
+        "383d7c88-281e-47c6-afab-0b2c7d158ac2",
+        "452a718c-242e-4cf6-a824-a74b03815663",
+        "7d5ebdfe-f0ef-4887-8c41-4942abdf1038",
+        "13ac972d-ad40-40ca-a9e0-defd3edd37f8",
+        "e620e9ca-61ea-43c3-9736-cc2b9a2058b4",
+        "e0103bfd-531c-42ae-8f9e-590d9be5451b",
+        "83df4143-fc40-4efa-8013-14e95e5a5602",
+        "f424463d-f12e-4a17-8cdc-ab40054e27ae",
+        "af62a573-5db5-4f93-8ec5-514df6f577c6",
+        "b5e0a501-902b-417c-ad9b-77d24ce40dc1",
+        "1c4d1331-a9ef-4835-b981-bd480176b4ba",
+        "31bf77e2-2727-408e-9e67-4c4cdf42099b",
+        "a0187caf-d4c1-4bd7-9cf1-7e4106f492b6",
+        "a2524244-d878-44ca-9af0-38e487e60e48",
+        "b9907e20-e16b-4034-906e-0d952d63aad8",
+        "1f8fdb6c-81e7-45f1-ae86-3f1560a4466a",
+        "7a7d7b73-1868-479d-908e-bf660af75723",
+        "3977c4d8-c9ed-430b-ad8d-1634d6a8d388",
+        "52d05a63-4113-4f97-a352-96aff08a304f",
+        "e83f38f3-365a-4c7c-93ac-bc78911065e4",
+        "1370000e-4011-401b-87ce-e90175723cf3",
+        "cb2abca2-9185-4ebc-870e-c96135ccd84c",
+        "d6fe6aee-3a8c-40f2-bedf-e250a0719214",
+        "61fda39a-d545-4660-9f3e-ba6d2cb686b3",
+        "80f9f2b0-e21a-4f44-8b2e-47edb9eb6b97",
+        "d0886ac5-ebec-4621-92a6-79c76a450dac",
+        "2dddf3a2-35fd-4c08-8fee-ee8565ede529",
+        "dc114fdd-d557-45f4-b026-988baf8746cb",
+        "5c6be83e-f523-48dc-b0d0-97fb820a1cfb",
+        "fd6e8649-2f1f-4441-89d2-5d529f525e42",
+        "d70bfacf-5750-4368-80c4-e80487695e9f",
+        "95a454fa-80c7-4474-8fdf-7f07ee506644",
+        "698dd508-fee9-46ac-8ccb-add2b3cb6c49",
+        "21448aed-d74b-4f44-80c8-6825f614c844",
+        "88872a38-d9f7-44a6-9768-785d22515d65",
+        "4ead560a-5b8c-400f-8b5b-4d8deb331cec",
+        "475045ea-3b8c-4b91-8102-c6a96512f92e",
+        "80f907f6-4ca9-479b-a3f4-27f38f0c9d2d",
+        "80117433-d5a9-442d-a020-9aac5f82aca8",
+        "47b986d9-cda8-42fe-92ff-5610c8d070e6",
+        "588c8dc9-6f88-4d1f-8a15-2d82876bd63a",
+        "5573a572-83dd-499a-ac68-e20ccc37a930",
+        "dcfff3b8-4822-41de-a77c-50f412758308",
+        "58996995-2d51-481d-98e9-5b6843e0942c",
+        "69b3e510-a5f4-49cf-8067-d5fb837b1965",
+        "fe6116a6-e31b-4f40-9f6c-c474f7bd3a32",
+        "f0eb1278-5c6b-45be-9421-95de11237dc0",
+        "9ee4a0e7-baa0-4a39-80fc-02c3f49beb32",
+        "376a4f90-cf5e-4897-ae47-8e2a112edd50",
+        "d231567b-1467-4e5d-ae58-3c1aae7305b9",
+        "75343be7-58be-4163-ab56-c40b462fe4ea",
+        "df10c10c-df5c-45e7-855f-8014ba81cee7",
+        "74980072-f2ab-4e46-9587-ab8f27eee17e",
+        "0c7fd8ce-7ca1-4c07-bc94-525273994bcb",
+        "0aeee31c-b313-4f66-9b74-47a52c770bd9",
+        "47700599-8049-4530-8707-d69fb42bd177",
+        "e38a25cd-e8c5-4639-9df6-cc22f0a1b478",
+        "7d380c2d-c0f4-4ce9-b5bf-13e2c4f51df0",
+        "9e354090-687a-4dc1-bb1e-cbabcecb275f",
+        "0b9d6e91-996f-427e-bf48-1a3717047ec0",
+        "3cdacc27-c45f-410d-a019-1974fa8df15e",
+        "f1b02874-44f7-4c7d-af62-dbbb76eec8f6",
+        "b38a7b0d-e0f7-49e2-8032-1b04769d601d",
+        "9814cdce-3d2f-4f1a-9c13-f028297af6cf",
+        "02ed3982-f879-4719-a6f8-bb8c21aa589f",
+        "0f9b9607-460e-468d-81ac-4ececb70e653",
+        "a4008eff-57e1-4289-a942-06ecb7db21ce",
+        "887124d4-6159-421e-89d6-e4a85b2ffc2c",
+        "467d6031-5d0c-41a6-b084-528e8ac09c98",
+        "77bbd089-cac8-4f80-926e-3414eb8100bf",
+        "8d662d63-5f72-4bfd-8a79-a5055ed75d85",
+        "7d84babe-7a14-475a-b443-70d46c104e35",
+        "64778981-a825-4f74-a5d9-1ee6086fb1f6",
+        "89c80658-e295-47eb-8901-5774548fa3ac",
+        "1946618d-f7cc-484b-9110-be115f445f89",
+        "2bf0b248-3087-4222-b483-f4abab5383c7",
+        "16ba1948-a92d-4878-a12e-d696e55c3fba",
+        "04656744-23b9-4c15-b94b-1b71c35b311c",
+        "b68bba77-36ba-4fc6-a690-c6cc6e87eca5",
+        "96005b11-fde7-4392-acce-c3d85671d11a",
+        "bf5accd7-6bc5-4b4d-9397-f17131c89cdf",
+        "241086af-edca-480c-acb1-fde8793421c9",
+        "37ce0968-e226-4443-b292-5605352c0f4e",
+        "c917d066-3823-4f97-844a-bf967a9a90ee",
+        "af4ab9cb-8315-4b8a-a8d8-baedd16f1769",
+        "e452ff4e-771d-425b-a37a-e4a9b6d50839",
+        "992037af-7378-4dc6-ba91-e81235c483d4",
+        "2e8be2e3-5803-4284-b8ee-36fa1bca4d76",
+        "e3a35a98-851b-42e3-ac7c-cc2f9d9cc1e7",
+        "f285a1c6-be7c-4489-bfa1-f4bfd0c80752",
+        "8beade24-d2b7-49d9-86ee-4aa2b17c1ee2",
+        "080dbb41-e97e-4d08-acc1-fb49e2ee7e5a",
+        "9a5a7f25-310d-400d-89fc-f4536e73025b",
+        "968f4d65-645e-4a5e-877e-469667f18197",
+        "2d6b630f-959e-4b15-964a-0f4e7b46d9bc",
+        "758b3ba9-c34b-47e7-8cd6-223bc08aeab6",
+        "81b86c4c-2684-4c5c-9b96-1ee7d76e15c3",
+        "1894194c-bf30-4368-82ff-7585bb4fb5ca",
+        "d9cd9c53-e36f-47bf-85ce-37fe4c7fdc1e",
+        "69bb224e-6d58-462f-8a93-aea46f259ba5",
+        "bec59748-1247-4646-8949-a7ca4bdaabdb",
+        "2547a037-1da3-4b83-9e42-474ab6070ba2",
+        "2914b0b7-6b02-489d-8bee-63284abd2e97",
+        "21c72d54-b3c7-4e55-aebe-b851d2e66c42",
+        "b5da8d38-3c9b-4a21-85db-cbf9eaec2e14",
+        "30340423-d3f2-4e3e-b031-30e4b72db8fa",
+        "146a1a96-875c-4237-9c7a-016fdeadf8a4",
+        "86fa9955-dc3f-427e-95a1-bd603e6cd71e",
+        "4082d7c3-b490-4dd0-aeea-1383dfcf8160",
+        "6808a764-4dfc-4648-adaf-41df86213acf",
+        "9752f308-5db7-4e3c-b8c2-b0432d1d33c7",
+        "ab9531ef-2f7e-4a80-8a6d-a20a780cf73a",
+        "081aaaf8-0bcf-4240-a6bb-9eabb3ea31a9",
+        "d47536aa-0d04-49cb-9fd5-ae9e062ff661",
+        "f3c1c4e8-f6d7-4b11-93fe-aacb206f3f15",
+        "ccb02003-660a-48a1-a80b-94928b909976",
+        "ec98813a-a4d8-4e15-9666-6dcd217005e8",
+        "bcbfc287-cf2d-49fc-bfc4-30d28ba99fea",
+        "24475d41-052f-4c31-986a-68df1e9d54fe",
+        "86fac86b-c66e-4952-bed2-eb44913c709d",
+        "7217dc3c-9585-4026-945c-cc8b03ba9124",
+        "81cc86a6-ca9f-4bb9-8423-74280a820d1f",
+        "b74b327d-4c00-416e-bfca-7045451c0d97",
+        "22f0c558-79e1-4ed9-ab8b-2a5700887638",
+        "eee467ed-6967-4f77-a54e-de847cfdac81",
+        "6d6bd155-ebe1-450e-8d51-07599211a1b7",
+        "72038780-0e30-4ba2-90ce-2211749661cb",
+        "c8ee4366-5062-4663-a7b8-989d55b67027",
+        "10160fab-e3af-4f4a-bd2b-1dafb9f60907",
+        "fdd1a252-0145-427d-82ab-dbcbaa9df52f",
+        "56621107-01f4-4226-9fb9-76064e43d04a",
+        "242be158-b213-4d0b-8a90-b1f5a1751ec4",
+        "f80590c3-4c38-4277-961d-aeff80d9343b",
+        "a84547ee-18f4-4b55-80b2-ac62a83cedaa",
+        "f6dc29e1-d986-4664-ad7b-49edf71b57fb",
+        "6dfd5ec9-2083-4cfa-b305-c3b98c8792a7",
+        "78ffb4fd-00bf-44d4-8e90-505875755e28",
+        "dfcd60a5-9e8b-45da-b977-baa01de9ac4f",
+        "654b3000-8cce-4c3e-99c8-8c89b06821a1",
+        "6fdbe257-f6dd-42e0-8788-77173b997667",
+        "ed3e5e61-057d-4127-94c1-668cfb792a3f",
+        "8630ae9d-c605-4e21-b09a-7abcc4af750a",
+        "c0591816-b813-4452-9cb0-e68edaeb4ca9",
+        "79932170-b699-4c4f-bc69-9b53bd02b044",
+        "ee0f2075-3714-4f05-86f1-b0f6940a66b9",
+        "5b5c7529-73b7-4865-8b52-3edcc35b10a7",
+        "b5e983ba-f6eb-4268-8008-96a169d57530",
+        "0794d866-13c3-4788-bb41-1c2bc288c049",
+        "13ea9985-0fe6-414b-9b8a-98123a0cf8e3",
+        "138d40c2-2689-4a29-b738-757d6ad9360c",
+        "44bed4a2-a240-4bd6-8e5e-1c85b60d605e",
+        "95f48efd-27be-4633-9a89-7684c565bd9e",
+        "db79d53a-2ad1-451f-8009-21ab303b0af9",
+        "6cbae147-1ead-4e89-81e5-22860c03ae15",
+        "4277d797-e9ad-49b2-85a9-868174761289",
+        "fe88b537-228b-41e0-b533-275fc62be4de",
+        "7b366729-1f1b-4a52-b0cd-807a454b03b0",
+        "cb84d1f5-ff8e-4a29-99c6-5cb6f4de4d48",
+        "d9b709ba-0387-40eb-be16-deed175eec81",
+        "e1af4f5d-c42a-4b79-8571-551e9a75e38c",
+        "75fb1cfc-bc93-45ef-9895-67a403d59dfe",
+        "fd9d5cc0-46ac-4d9c-91ab-6eab66078c1b",
+        "fa7cf924-8ab0-433d-9015-6bd6b7f2e6e2",
+        "7cdf80b6-abea-4bb3-8eaa-d9570edcb399",
+        "cb94ca1f-64ea-4337-b883-0e66b98d2253",
+        "15b65c73-456f-4e77-acaf-0748b47aa347",
+        "50e9f22e-7c8e-4004-a93d-5db0bc6779a9",
+        "2fb95686-d216-4436-8374-5c65378f49ed",
+        "8a821e5e-9b14-41f0-841d-74e27eead995",
+        "5f8a7609-b387-4a98-bb57-fdfb8dc6fcba",
+        "dbc84032-7f07-4642-b77f-585fd846cfe0",
+        "4c8c64cb-9ab7-4a1c-84a4-843b1d7a317c",
+        "6c89b458-5c57-47ee-a8c4-f35d7cd6bc46",
+        "9a93eb04-4a01-4248-844f-c2b7e85c018a"
+      ],
+      "dependScripts": [
+        "f2dc890d-8c15-404f-887c-3b9a09235f3c",
+        "2c4be425-8b2c-4e34-862c-59d276bf4f4f",
+        "28698c5f-08de-49bd-8a64-1bf8fd572ec1",
+        "94a4611e-6349-4d34-b41e-1df2d8f1b31c",
+        "0c554bc1-526d-4d15-84e7-c464450a2bab"
+      ]
+    },
+    "versionCode": 2
+  },
+  "c5566319-e2a4-4351-9138-64bf60d6be0c": {
+    "url": "db://assets/Game/Art/AI/goldenhen_background.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f6eb50e8-8086-484f-8f34-7afd9a89ee5c": {
+    "url": "db://assets/Game/Art/AI/goldenhen_reel_board.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603": {
+    "url": "db://assets/Game/Art/AI/goldenhen_symbol_sheet.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@6c48a": {
+    "url": "db://assets/Game/Art/AI/goldenhen_reel_board.png@6c48a",
+    "value": {
+      "depends": [
+        "f6eb50e8-8086-484f-8f34-7afd9a89ee5c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@6c48a": {
+    "url": "db://assets/Game/Art/AI/goldenhen_symbol_sheet.png@6c48a",
+    "value": {
+      "depends": [
+        "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c5566319-e2a4-4351-9138-64bf60d6be0c@6c48a": {
+    "url": "db://assets/Game/Art/AI/goldenhen_background.png@6c48a",
+    "value": {
+      "depends": [
+        "c5566319-e2a4-4351-9138-64bf60d6be0c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@f9941": {
+    "url": "db://assets/Game/Art/AI/goldenhen_reel_board.png@f9941",
+    "value": {
+      "depends": [
+        "f6eb50e8-8086-484f-8f34-7afd9a89ee5c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c5566319-e2a4-4351-9138-64bf60d6be0c@f9941": {
+    "url": "db://assets/Game/Art/AI/goldenhen_background.png@f9941",
+    "value": {
+      "depends": [
+        "c5566319-e2a4-4351-9138-64bf60d6be0c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@f9941": {
+    "url": "db://assets/Game/Art/AI/goldenhen_symbol_sheet.png@f9941",
+    "value": {
+      "depends": [
+        "eec1d16b-4644-4cbd-b6de-0ef7f3eb9603@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0c554bc1-526d-4d15-84e7-c464450a2bab": {
+    "url": "db://assets/Game/Scripts/GoldenHenGameControls.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "81c195bc-0cc1-4563-8fc5-5403c519a8b2": {
+    "url": "db://assets/Game/Art/AI/README.md",
+    "value": {
+      "depends": [
+        "66cab619-832e-4d0a-8142-08fdb5281ad9",
+        "8dfa89fb-fe4a-47ad-b055-2005fd07f48a",
+        "5135d5a8-e7c9-4054-b036-cf2024d043a8",
+        "01a1616f-44c2-7481-843c-42ba7b9c1349"
+      ]
+    },
+    "versionCode": 1
+  }
+}
